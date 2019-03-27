@@ -7,9 +7,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
-    "build": "tsc & node build/server.js",
-    "postinstall": "npm run tsc"
+    "start": "node build/server.js",
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
